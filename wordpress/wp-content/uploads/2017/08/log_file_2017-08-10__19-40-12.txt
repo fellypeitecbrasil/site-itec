@@ -1,0 +1,78 @@
+
+---Downloaded files---
+The import files for: Zodkoo Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/themes/zodkoo/demo-data/content.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/themes/zodkoo/demo-data/widgets.json
+Customizer file = C:\xampp\htdocs\wordpress/wp-content/themes/zodkoo/demo-data/customizer.dat
+Redux files:
+zodkoo_setting -> C:\xampp\htdocs\wordpress/wp-content/themes/zodkoo/demo-data/theme_option.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "favicon (1)" (Mídia)
+[ERROR] Failed to import "logo_zodkoo" (Mídia)
+
+
+---Importing widgets---
+Footer Sidebar one : 
+
+Menu personalizado - Zodkoo - Imported
+
+Footer Sidebar Two : 
+
+Menu personalizado - Social - Imported
+
+Footer Sidebar Three : 
+
+Menu personalizado - Support - Imported
+
+Footer Sidebar Four : 
+
+Texto - Contact - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: zodkoo_setting finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

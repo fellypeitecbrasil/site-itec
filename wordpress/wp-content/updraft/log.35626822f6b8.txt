@@ -1,0 +1,485 @@
+65007.106 (1) Opened log file at time: Wed, 01 Nov 2017 12:29:28 +0000 on http://localhost/wordpress
+65007.153 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 32M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+65007.271 (1) Free space on disk containing Updraft's temporary directory: 602155.3 MB
+65007.363 (1) Backup run: resumption=1, nonce=35626822f6b8, begun at=1509474361 (65007s ago), job type=backup, previous check-in=87.1s
+65007.418 (1) Long time past since expected resumption time: approx expected=1509474749.3, now=1509539368.7, diff=64619.4
+65007.448 (1) [Warning] Seu website é visitado com frequência e UpdraftPlus não esta recebendo os recursos que esperava; por favor, leia esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+65007.484 (1) Scheduling a resumption (2) after 300 seconds (1509539669) in case this run gets aborted
+65007.562 (1) Checking if we have a zip executable available
+65007.629 (1) Creation of backups of directories: already finished
+65007.675 (1) Saving backup status to database (elements: 8)
+65007.702 (1) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+65007.739 (1) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+65007.828 (1) Database dump (WordPress DB): Creation was completed already
+65007.859 (1) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+65007.894 (1) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+65008.094 (1) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+65008.139 (1) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+65008.182 (1) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+65008.313 (1) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+65008.359 (1) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+65008.425 (1) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+65008.569 (1) Saving backup history. Total backup size: Unknown
+65008.601 (1) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+65008.636 (1) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+65008.747 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+65008.813 (1) Cloud backup selection (1/1): email (last)
+65008.844 (1) Beginning dispatch of backup to remote (email)
+65008.891 (1) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+65008.922 (1) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+65010.202 (1) Mails were not sent successfully
+65010.452 (1) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+65011.755 (1) Mails were not sent successfully
+65011.846 (1) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+65012.971 (1) Mails were not sent successfully
+65013.054 (1) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+65014.140 (1) Mails were not sent successfully
+65014.326 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+65014.383 (1) Number of backup sets in history: 2; groups (db): 1
+65014.412 (1) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+65014.459 (1) This backup set is the backup set just made, so will not be deleted.
+65014.459 (1) Examining (for databases) backup set with group_id=0, nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+65014.459 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+65014.525 (1) Number of backup sets in history: 2; groups (files): 1
+65014.556 (1) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+65014.557 (1) This backup set is the backup set just made, so will not be deleted.
+65014.602 (1) This backup set is the backup set just made, so will not be deleted.
+65014.603 (1) This backup set is the backup set just made, so will not be deleted.
+65014.604 (1) This backup set is the backup set just made, so will not be deleted.
+65014.604 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+65014.634 (1) Examining (for files) backup set with nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+65014.634 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+65014.635 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+65014.725 (1) Resume backup (35626822f6b8, 1): finish run
+65014.847 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+65014.957 (1) O backup não foi finalizado; um recomeço foi agendado
+66193.889 (2) Opened log file at time: Wed, 01 Nov 2017 12:49:15 +0000 on http://localhost/wordpress
+66194.005 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 16M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+66194.086 (2) Free space on disk containing Updraft's temporary directory: 602155.1 MB
+66194.242 (2) Backup run: resumption=2, nonce=35626822f6b8, begun at=1509474361 (66194s ago), job type=backup
+66194.307 (2) Long time past since expected resumption time: approx expected=1509539654.2, now=1509540555.5, diff=901.2
+66194.363 (2) [Warning] Seu website é visitado com frequência e UpdraftPlus não esta recebendo os recursos que esperava; por favor, leia esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+66194.474 (2) Scheduling a resumption (3) after 300 seconds (1509540856) in case this run gets aborted
+66194.696 (2) Checking if we have a zip executable available
+66194.761 (2) Creation of backups of directories: already finished
+66194.863 (2) Saving backup status to database (elements: 8)
+66194.941 (2) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66195.050 (2) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66195.296 (2) Database dump (WordPress DB): Creation was completed already
+66195.427 (2) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66195.503 (2) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66195.685 (2) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+66195.785 (2) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+66195.891 (2) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+66195.957 (2) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+66195.990 (2) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+66196.172 (2) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+66196.333 (2) Saving backup history. Total backup size: Unknown
+66196.367 (2) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66196.510 (2) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66196.611 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+66196.687 (2) Cloud backup selection (1/1): email (last)
+66196.743 (2) Beginning dispatch of backup to remote (email)
+66196.777 (2) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+66196.809 (2) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+66198.014 (2) Mails were not sent successfully
+66198.050 (2) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+66199.230 (2) Mails were not sent successfully
+66199.312 (2) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+66200.424 (2) Mails were not sent successfully
+66200.563 (2) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+66201.732 (2) Mails were not sent successfully
+66201.846 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+66201.881 (2) Number of backup sets in history: 2; groups (db): 1
+66201.913 (2) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+66201.956 (2) This backup set is the backup set just made, so will not be deleted.
+66201.957 (2) Examining (for databases) backup set with group_id=0, nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+66201.957 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+66201.990 (2) Number of backup sets in history: 2; groups (files): 1
+66202.045 (2) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+66202.045 (2) This backup set is the backup set just made, so will not be deleted.
+66202.079 (2) This backup set is the backup set just made, so will not be deleted.
+66202.080 (2) This backup set is the backup set just made, so will not be deleted.
+66202.081 (2) This backup set is the backup set just made, so will not be deleted.
+66202.081 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+66202.123 (2) Examining (for files) backup set with nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+66202.123 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+66202.124 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+66202.200 (2) Resume backup (35626822f6b8, 2): finish run
+66202.300 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+66202.367 (2) O backup não foi finalizado; um recomeço foi agendado
+66510.357 (3) Opened log file at time: Wed, 01 Nov 2017 12:54:31 +0000 on http://localhost/wordpress
+66510.399 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 4M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+66510.437 (3) Free space on disk containing Updraft's temporary directory: 602143.1 MB
+66510.512 (3) Backup run: resumption=3, nonce=35626822f6b8, begun at=1509474361 (66511s ago), job type=backup
+66510.544 (3) Scheduling a resumption (4) after 300 seconds (1509541172) in case this run gets aborted
+66510.624 (3) Checking if we have a zip executable available
+66510.654 (3) Creation of backups of directories: already finished
+66510.692 (3) Saving backup status to database (elements: 8)
+66510.720 (3) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66510.765 (3) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66510.877 (3) Database dump (WordPress DB): Creation was completed already
+66510.920 (3) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66510.988 (3) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66511.211 (3) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+66511.309 (3) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+66511.365 (3) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+66511.407 (3) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+66511.443 (3) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+66511.617 (3) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+66511.761 (3) Saving backup history. Total backup size: Unknown
+66511.796 (3) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66511.843 (3) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+66511.907 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+66512.098 (3) Cloud backup selection (1/1): email (last)
+66512.173 (3) Beginning dispatch of backup to remote (email)
+66512.271 (3) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+66512.383 (3) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+66513.728 (3) Mails were not sent successfully
+66513.799 (3) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+66514.959 (3) Mails were not sent successfully
+66515.096 (3) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+66516.228 (3) Mails were not sent successfully
+66516.477 (3) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+66517.644 (3) Mails were not sent successfully
+66517.841 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+66517.883 (3) Number of backup sets in history: 2; groups (db): 1
+66517.929 (3) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+66517.970 (3) This backup set is the backup set just made, so will not be deleted.
+66517.970 (3) Examining (for databases) backup set with group_id=0, nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+66517.970 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+66518.029 (3) Number of backup sets in history: 2; groups (files): 1
+66518.081 (3) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+66518.081 (3) This backup set is the backup set just made, so will not be deleted.
+66518.151 (3) This backup set is the backup set just made, so will not be deleted.
+66518.151 (3) This backup set is the backup set just made, so will not be deleted.
+66518.152 (3) This backup set is the backup set just made, so will not be deleted.
+66518.153 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+66518.181 (3) Examining (for files) backup set with nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+66518.182 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+66518.182 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+66518.325 (3) Resume backup (35626822f6b8, 3): finish run
+66518.446 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+66518.527 (3) O backup não foi finalizado; um recomeço foi agendado
+67038.986 (4) Opened log file at time: Wed, 01 Nov 2017 13:03:20 +0000 on http://localhost/wordpress
+67039.057 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 8M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+67039.094 (4) Free space on disk containing Updraft's temporary directory: 602133.3 MB
+67039.182 (4) Backup run: resumption=4, nonce=35626822f6b8, begun at=1509474361 (67039s ago), job type=backup
+67039.223 (4) Scheduling a resumption (5) after 300 seconds (1509541700) in case this run gets aborted
+67039.349 (4) Checking if we have a zip executable available
+67039.449 (4) Creation of backups of directories: already finished
+67039.506 (4) Saving backup status to database (elements: 8)
+67039.607 (4) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67039.677 (4) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67039.810 (4) Database dump (WordPress DB): Creation was completed already
+67039.848 (4) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67039.899 (4) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67039.988 (4) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+67040.042 (4) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+67040.080 (4) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+67040.120 (4) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+67040.158 (4) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+67040.245 (4) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+67040.445 (4) Saving backup history. Total backup size: Unknown
+67040.485 (4) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67040.563 (4) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67040.740 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+67040.851 (4) Cloud backup selection (1/1): email (last)
+67040.945 (4) Beginning dispatch of backup to remote (email)
+67040.995 (4) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+67041.093 (4) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+67042.600 (4) Mails were not sent successfully
+67042.789 (4) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+67044.030 (4) Mails were not sent successfully
+67044.150 (4) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+67045.311 (4) Mails were not sent successfully
+67045.400 (4) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+67046.478 (4) Mails were not sent successfully
+67046.655 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+67046.696 (4) Number of backup sets in history: 2; groups (db): 1
+67046.751 (4) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+67046.805 (4) This backup set is the backup set just made, so will not be deleted.
+67046.806 (4) Examining (for databases) backup set with group_id=0, nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+67046.806 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+67046.843 (4) Number of backup sets in history: 2; groups (files): 1
+67046.883 (4) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+67046.883 (4) This backup set is the backup set just made, so will not be deleted.
+67046.921 (4) This backup set is the backup set just made, so will not be deleted.
+67046.922 (4) This backup set is the backup set just made, so will not be deleted.
+67046.923 (4) This backup set is the backup set just made, so will not be deleted.
+67046.924 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+67046.960 (4) Examining (for files) backup set with nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+67046.961 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+67046.962 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+67047.082 (4) Resume backup (35626822f6b8, 4): finish run
+67047.209 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+67047.286 (4) O backup não foi finalizado; um recomeço foi agendado
+67601.258 (5) Opened log file at time: Wed, 01 Nov 2017 13:12:42 +0000 on http://localhost/wordpress
+67601.295 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 6M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+67601.333 (5) Free space on disk containing Updraft's temporary directory: 602132.7 MB
+67601.422 (5) Backup run: resumption=5, nonce=35626822f6b8, begun at=1509474361 (67602s ago), job type=backup
+67601.478 (5) Scheduling a resumption (6) after 300 seconds (1509542263) in case this run gets aborted
+67601.589 (5) Checking if we have a zip executable available
+67601.627 (5) Creation of backups of directories: already finished
+67601.674 (5) Saving backup status to database (elements: 8)
+67601.721 (5) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67601.771 (5) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67601.860 (5) Database dump (WordPress DB): Creation was completed already
+67601.898 (5) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67601.954 (5) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67602.132 (5) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+67602.209 (5) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+67602.364 (5) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+67602.430 (5) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+67602.513 (5) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+67602.657 (5) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+67602.834 (5) Saving backup history. Total backup size: Unknown
+67602.872 (5) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67602.916 (5) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+67603.005 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+67603.194 (5) Cloud backup selection (1/1): email (last)
+67603.266 (5) Beginning dispatch of backup to remote (email)
+67603.316 (5) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+67603.371 (5) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+67604.617 (5) Mails were not sent successfully
+67604.666 (5) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+67605.854 (5) Mails were not sent successfully
+67605.906 (5) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+67607.049 (5) Mails were not sent successfully
+67607.135 (5) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+67608.380 (5) Mails were not sent successfully
+67608.535 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+67608.597 (5) Number of backup sets in history: 2; groups (db): 1
+67608.728 (5) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+67608.779 (5) This backup set is the backup set just made, so will not be deleted.
+67608.779 (5) Examining (for databases) backup set with group_id=0, nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+67608.779 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+67608.845 (5) Number of backup sets in history: 2; groups (files): 1
+67608.950 (5) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+67608.950 (5) This backup set is the backup set just made, so will not be deleted.
+67609.016 (5) This backup set is the backup set just made, so will not be deleted.
+67609.017 (5) This backup set is the backup set just made, so will not be deleted.
+67609.017 (5) This backup set is the backup set just made, so will not be deleted.
+67609.018 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+67609.067 (5) Examining (for files) backup set with nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+67609.067 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+67609.068 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+67609.282 (5) Resume backup (35626822f6b8, 5): finish run
+67609.510 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+67609.621 (5) O backup não foi finalizado; um recomeço foi agendado
+80121.908 (6) Opened log file at time: Wed, 01 Nov 2017 16:41:23 +0000 on http://localhost/wordpress
+80121.936 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 4M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+80121.984 (6) Free space on disk containing Updraft's temporary directory: 602116 MB
+80122.084 (6) Backup run: resumption=6, nonce=35626822f6b8, begun at=1509474361 (80122s ago), job type=backup
+80122.113 (6) Long time past since expected resumption time: approx expected=1509542253.8, now=1509554483.5, diff=12229.7
+80122.150 (6) [Warning] Seu website é visitado com frequência e UpdraftPlus não esta recebendo os recursos que esperava; por favor, leia esta página: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+80122.180 (6) Scheduling a resumption (7) after 300 seconds (1509554783) in case this run gets aborted
+80122.258 (6) Checking if we have a zip executable available
+80122.382 (6) Creation of backups of directories: already finished
+80122.485 (6) Saving backup status to database (elements: 8)
+80122.523 (6) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80122.606 (6) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80122.781 (6) Database dump (WordPress DB): Creation was completed already
+80122.866 (6) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80122.988 (6) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80123.191 (6) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+80123.287 (6) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+80123.467 (6) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+80123.586 (6) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+80123.622 (6) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+80123.733 (6) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+80123.877 (6) Saving backup history. Total backup size: Unknown
+80123.953 (6) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80124.025 (6) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80124.106 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+80124.187 (6) Cloud backup selection (1/1): email (last)
+80124.242 (6) Beginning dispatch of backup to remote (email)
+80124.320 (6) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+80124.409 (6) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+80125.618 (6) Mails were not sent successfully
+80125.736 (6) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+80126.890 (6) Mails were not sent successfully
+80126.931 (6) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+80128.015 (6) Mails were not sent successfully
+80128.072 (6) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+80129.166 (6) Mails were not sent successfully
+80129.267 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+80129.366 (6) Number of backup sets in history: 2; groups (db): 1
+80129.434 (6) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+80129.499 (6) This backup set is the backup set just made, so will not be deleted.
+80129.499 (6) Examining (for databases) backup set with group_id=0, nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+80129.499 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+80129.552 (6) Number of backup sets in history: 2; groups (files): 1
+80129.599 (6) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+80129.599 (6) This backup set is the backup set just made, so will not be deleted.
+80129.666 (6) This backup set is the backup set just made, so will not be deleted.
+80129.667 (6) This backup set is the backup set just made, so will not be deleted.
+80129.667 (6) This backup set is the backup set just made, so will not be deleted.
+80129.667 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+80129.698 (6) Examining (for files) backup set with nonce=89f5e7c408de, datestamp=1509380678 (Oct 30 2017 16:24:38)
+80129.698 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+80129.698 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+80129.821 (6) Resume backup (35626822f6b8, 6): finish run
+80129.942 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+80130.031 (6) O backup não foi finalizado; um recomeço foi agendado
+80499.422 (7) Opened log file at time: Wed, 01 Nov 2017 16:47:41 +0000 on http://localhost/wordpress
+80499.470 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+80499.525 (7) Free space on disk containing Updraft's temporary directory: 602113.8 MB
+80499.646 (7) Backup run: resumption=7, nonce=35626822f6b8, begun at=1509474361 (80500s ago), job type=backup
+80499.703 (7) Scheduling a resumption (8) after 300 seconds (1509555161) in case this run gets aborted
+80499.769 (7) Checking if we have a zip executable available
+80499.798 (7) Creation of backups of directories: already finished
+80499.843 (7) Saving backup status to database (elements: 8)
+80499.879 (7) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80499.909 (7) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80500.023 (7) Database dump (WordPress DB): Creation was completed already
+80500.083 (7) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80500.211 (7) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80500.297 (7) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+80500.334 (7) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+80500.363 (7) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+80500.400 (7) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+80500.429 (7) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+80500.496 (7) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+80500.643 (7) Saving backup history. Total backup size: Unknown
+80500.673 (7) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80500.717 (7) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80500.784 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+80500.909 (7) Cloud backup selection (1/1): email (last)
+80500.939 (7) Beginning dispatch of backup to remote (email)
+80500.976 (7) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+80501.005 (7) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+80502.233 (7) Mails were not sent successfully
+80502.370 (7) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+80503.608 (7) Mails were not sent successfully
+80503.688 (7) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+80504.819 (7) Mails were not sent successfully
+80504.895 (7) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+80505.950 (7) Mails were not sent successfully
+80506.155 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+80506.331 (7) Number of backup sets in history: 2; groups (db): 1
+80506.366 (7) Examining (for databases) backup set with group_id=0, nonce=ac9188e3d861, datestamp=1509554491 (Nov 01 2017 16:41:31)
+80506.397 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+80506.432 (7) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+80506.432 (7) This backup set is the backup set just made, so will not be deleted.
+80506.432 (7) Number of backup sets in history: 2; groups (files): 1
+80506.463 (7) Examining (for files) backup set with nonce=ac9188e3d861, datestamp=1509554491 (Nov 01 2017 16:41:31)
+80506.463 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+80506.520 (7) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+80506.521 (7) This backup set is the backup set just made, so will not be deleted.
+80506.554 (7) This backup set is the backup set just made, so will not be deleted.
+80506.555 (7) This backup set is the backup set just made, so will not be deleted.
+80506.555 (7) This backup set is the backup set just made, so will not be deleted.
+80506.555 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+80506.585 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+80506.651 (7) Resume backup (35626822f6b8, 7): finish run
+80506.718 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+80506.784 (7) O backup não foi finalizado; um recomeço foi agendado
+80861.204 (8) Opened log file at time: Wed, 01 Nov 2017 16:53:42 +0000 on http://localhost/wordpress
+80861.236 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 14M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+80861.269 (8) Free space on disk containing Updraft's temporary directory: 602113.4 MB
+80861.379 (8) Backup run: resumption=8, nonce=35626822f6b8, begun at=1509474361 (80861s ago), job type=backup
+80861.492 (8) Scheduling a resumption (9) after 300 seconds (1509555523) in case this run gets aborted
+80861.768 (8) Checking if we have a zip executable available
+80861.800 (8) Creation of backups of directories: already finished
+80861.852 (8) Saving backup status to database (elements: 8)
+80861.944 (8) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80861.989 (8) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80862.133 (8) Database dump (WordPress DB): Creation was completed already
+80862.167 (8) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80862.200 (8) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80862.267 (8) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+80862.299 (8) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+80862.333 (8) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+80862.387 (8) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+80862.420 (8) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+80862.591 (8) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+80862.869 (8) Saving backup history. Total backup size: Unknown
+80862.919 (8) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80862.952 (8) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+80863.041 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+80863.107 (8) Cloud backup selection (1/1): email (last)
+80863.140 (8) Beginning dispatch of backup to remote (email)
+80863.196 (8) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+80863.241 (8) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+80864.476 (8) Mails were not sent successfully
+80864.712 (8) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+80865.969 (8) Mails were not sent successfully
+80866.119 (8) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+80867.246 (8) Mails were not sent successfully
+80867.337 (8) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+80868.390 (8) Mails were not sent successfully
+80868.454 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+80868.587 (8) Number of backup sets in history: 2; groups (db): 1
+80868.631 (8) Examining (for databases) backup set with group_id=0, nonce=ac9188e3d861, datestamp=1509554491 (Nov 01 2017 16:41:31)
+80868.686 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+80868.731 (8) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+80868.731 (8) This backup set is the backup set just made, so will not be deleted.
+80868.731 (8) Number of backup sets in history: 2; groups (files): 1
+80868.764 (8) Examining (for files) backup set with nonce=ac9188e3d861, datestamp=1509554491 (Nov 01 2017 16:41:31)
+80868.764 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+80868.808 (8) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+80868.808 (8) This backup set is the backup set just made, so will not be deleted.
+80868.841 (8) This backup set is the backup set just made, so will not be deleted.
+80868.841 (8) This backup set is the backup set just made, so will not be deleted.
+80868.842 (8) This backup set is the backup set just made, so will not be deleted.
+80868.842 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+80868.897 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+80868.974 (8) Resume backup (35626822f6b8, 8): finish run
+80869.041 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+80869.107 (8) O backup não foi finalizado; um recomeço foi agendado
+81226.688 (9) Opened log file at time: Wed, 01 Nov 2017 16:59:48 +0000 on http://localhost/wordpress
+81226.723 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.2M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+81226.749 (9) Free space on disk containing Updraft's temporary directory: 602112.5 MB
+81226.826 (9) Backup run: resumption=9, nonce=35626822f6b8, begun at=1509474361 (81227s ago), job type=backup
+81226.855 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+81226.904 (9) Creation of backups of directories: already finished
+81226.958 (9) Saving backup status to database (elements: 8)
+81226.981 (9) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+81227.010 (9) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+81227.181 (9) Database dump (WordPress DB): Creation was completed already
+81227.244 (9) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+81227.287 (9) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+81227.342 (9) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+81227.402 (9) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+81227.431 (9) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+81227.458 (9) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: others: This file has not yet been successfully uploaded: will queue
+81227.498 (9) backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz)
+81227.575 (9) Recording as successfully uploaded: backup_2017-10-31-1626_Itec_Brazil_35626822f6b8-db.gz (1c5608f37eb674fdfb77d33e9ded7b15)
+81227.657 (9) Saving backup history. Total backup size: Unknown
+81227.685 (9) PHP event: code E_NOTICE: Undefined index: instance_settings (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+81227.730 (9) PHP event: code E_WARNING: array_keys() expects parameter 1 to be array, null given (line 3337, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\class-updraftplus.php)
+81227.801 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+81227.884 (9) Cloud backup selection (1/1): email (last)
+81227.912 (9) Beginning dispatch of backup to remote (email)
+81227.963 (9) [Warning] backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: Este arquivo de backup em o tamanho 30 MB - a tentativa de enviar isto por email provavelmente falhará (poucos servidores de email permitem anexos deste tamanho). Se assim for você deveria trocar para um método de armazenamento diferente.
+81227.989 (9) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-plugins.zip: email to: backu...
+81229.216 (9) Mails were not sent successfully
+81229.258 (9) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-themes.zip: email to: backu...
+81230.395 (9) Mails were not sent successfully
+81230.436 (9) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-uploads.zip: email to: backu...
+81231.546 (9) Mails were not sent successfully
+81231.621 (9) backup_2017-10-31-1626_Itec_Brazil_64bfb5866318-others.zip: email to: backu...
+81232.665 (9) Mails were not sent successfully
+81232.722 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+81232.751 (9) Number of backup sets in history: 2; groups (db): 1
+81232.777 (9) Examining (for databases) backup set with group_id=0, nonce=ac9188e3d861, datestamp=1509554491 (Nov 01 2017 16:41:31)
+81232.805 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+81232.849 (9) Examining (for databases) backup set with group_id=0, nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+81232.849 (9) This backup set is the backup set just made, so will not be deleted.
+81232.849 (9) Number of backup sets in history: 2; groups (files): 1
+81232.877 (9) Examining (for files) backup set with nonce=ac9188e3d861, datestamp=1509554491 (Nov 01 2017 16:41:31)
+81232.877 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+81232.904 (9) Examining (for files) backup set with nonce=35626822f6b8, datestamp=1509474361 (Oct 31 2017 18:26:01)
+81232.904 (9) This backup set is the backup set just made, so will not be deleted.
+81232.932 (9) This backup set is the backup set just made, so will not be deleted.
+81232.933 (9) This backup set is the backup set just made, so will not be deleted.
+81232.933 (9) This backup set is the backup set just made, so will not be deleted.
+81232.934 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+81232.960 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+81233.065 (9) Resume backup (35626822f6b8, 9): finish run
+81233.203 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+81233.276 (9) Fetching RSS news feed
+81233.327 (9) Fetched RSS news feed; result is a: SimplePie
+81233.382 (9) Sending email ('Arquivos e banco de dados (Backup Completo (Full))') report (attachments: 1, size: 54.3 KB) to: backu...
+81234.436 (9) A tentativa de backup terminou, aparentemente sem sucesso

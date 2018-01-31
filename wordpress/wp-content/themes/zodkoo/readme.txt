@@ -1,0 +1,3 @@
+Zodkoo is a professional HTML5/CSS3 Bootstrap Design WordPress Landing Page Theme
+
+Before you get started, please be sure to always check out this documentation. We outline all kinds of good information, and provide you with all the details you need to use Zodkoo WordPress Landing Page Theme. Zodkoo WordPress Landing Page Theme can only be used with WordPress and we assume that you already have WordPress installed and ready to go.

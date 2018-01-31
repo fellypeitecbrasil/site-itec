@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Coderthemes">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Zodkoo | WordPress Landing Theme</title>
+
+    <!-- Google-Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic'
+          rel='stylesheet'>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/prettify.css"/>
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Zodkoo WordPress Documentation 1.0</a>
+        </div>
+
+        <!--div><a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a></div-->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li>
+                <a href="#intro">Introduction</a>
+            </li>
+            <li>
+                <a href="#requirement">Requirement</a>
+            </li>
+            <li>
+                <a href="#structure">Structure</a>
+            </li>
+            <li>
+                <a href="#themeinstall">Theme Installation</a>
+            </li>
+            <li>
+                <a href="#pluginsinstall">Plugins Installation</a>
+            </li>
+            <li>
+                <a href="#demoinstall">Demo Installation</a>
+            </li>
+            <li>
+                <a href="#themeoption">Theme Options</a>
+            </li>
+            <li>
+                <a href="#shortcodes">Shortcodes</a>
+            </li>
+            <li>
+                <a href="#support">Support</a>
+            </li>
+            <li><a href="#changelog">Change Log</a></li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="right-bar">
+
+                        <div class="com-container">
+
+                            <div id="intro" class="com-container">
+                                <h3 class="page-header">Thank you very much for your purchase!</h3>
+                                <div class="p-t-20">
+                                    <div class="alert alert-info alert-dismissable">
+                                        <p>If you have any questions that are beyond the scope of this documentation,
+                                            please feel free to email or contact us via my page.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 class="page-header">Introduction</h4>
+
+                            <p>Zodkoo is a fully responsive WordPress Landing template. It's designed for describing your app, agency or business. A powerful visual composer is integrated in the bundle allowing you to craft any page very easily.
+                            </p>
+                            <p>
+                                We really care for our buyers and so in case if you have any question or feedback,
+                                please feel free to get back to us.
+                            </p>
+
+                            <div id="requirement" class="com-container">
+                                 <h4 class="page-header">Requirement</h4>
+                                    <p>Basic Requirement for Theme</p>
+                                    <ul>
+                                        <li><strong>Wordpress 4.0 or higher</strong>.</li>
+                                        <li><strong>PHP 5.4 or higher</strong>.</li>
+                                        <li><strong>MySQL 5 or higher</strong>.</li>
+                                        <li><strong>Memory Limit 128M or higher</strong>.</li>
+                                    </ul>
+                                    <p>Recommended PHP Configuration Limits</p>
+                                    <ul>
+                                        <li><strong>max_execution_time 180</strong></li>
+                                        <li><strong>memory_limit 128M</strong></li>
+                                        <li><strong>post_max_size 32M</strong></li>
+                                        <li><strong>upload_max_filesize 32M</strong></li>
+                                    </ul>
+                            </div>
+
+                            <div id="structure" class="com-container">
+                                <h4 class="page-header">Structure</h4>
+                                <p>I have tried to follow the standards and modular structure while developing the
+                                    theme. Following sections are explaining the theme File &amp; Folder, structure,
+                                    php file struture and plugins.</p>
+
+                                <div class="row p-t-20">
+                                    <div class="col-sm-12">
+                                        <h4>File &amp; Folder Structure</h4>
+                                        <hr/>
+
+												<pre class="prettyprint">
+
+
+├── assets/
+│   ├── css/
+│   ├── fonts/
+│   ├── images/
+│   └── js/
+├── content 
+│       └── All Blog formate files
+├── demo-data
+│       └── All Demo Import files
+├── extend
+│       └── All Custom Functionality files
+├── framework
+│       └── All framework files
+├── languages
+│       └── All Language .pot files
+└── Other Required .php files
+
+</pre>
+
+
+                            </div>
+                        </div>
+                    </div>
+                            <div id="themeinstall" class="com-container">
+                                 <h4 class="page-header">Theme Installation</h4>
+                                 <p>1. Unzip zodkoo.zip file (the zip file is inside Theme files folder you have downloaded from ThemeForest). Connect to your FTP server and navigate to the folder where your WordPress is installed. Go to wp-content/themes/ and upload zodkoo folder (the path will look like this: wp-content/themes/zodkoo).</p>
+                                 <p>2. Open wordpress admin panel (navigate through web browser to the folder where you have installed the WordPress e.g www.your_domain.com/wp-admin/) and go Appearance > Themes on admin sidebar. Activate zodkoo theme.</p>
+                                 <img src="img/theme_install.png">
+                                <hr>
+                                 <p>Install Theme via WordPress Admin Panel</p>
+                                 <p>1. Open wordpress admin panel (navigate through web browser to the folder where you have installed the WordPress e.g www.your_domain.com/wp-admin/) and go Appearance > Themes on admin sidebar. Activate zodkoo theme.</p>
+                                 <p>2. Click Add New link and click Upload Theme link. Please upload zodkoo.zip file (the zip file is inside Theme files folder you have downloaded from ThemeForest).</p>
+                                 <p>3. Once the theme is done uploading it will automatically install.</p>
+                                 <p>4. After successfully installing theme activate the theme.</p>
+                                 <img src="img/add_new_theme.png">                                 
+                            </div>
+                            <div id="pluginsinstall" class="com-container">
+                                 <h4 class="page-header">Plugins Installation</h4>
+                                 <p>After installing and activating the theme you will see the following message at the top of the page. </p>
+                                 <p>This theme requires the following plugins...</p>
+                                 <p>You should click Begin Installing plugins link.</p>
+                                 <img src="img/Install_plugin_list.png">
+                                 <br>
+                                 <br>
+                                 <p>You will be redirected to Install Required Plugins page, here you will find all of the theme required plugins. To install them just check all of them and from the drop down select install once installed do the same to activate them.</p>
+                                 <br>
+                                 <img src="img/Install_plugin.png">
+                            </div>
+                            <div id="demoinstall" class="com-container">
+                                 <h4 class="page-header">Demo Installation</h4>
+                                 <p>Please go Appearance > Import Demo Data to import sample content as our demo sites.</p>
+                                 <p>When import dummy content, you should wait a few minutes.</p>
+                                  <img src="img/import_demo_data.png">
+                            </div>
+                            <div id="themeoption" class="com-container">
+                                 <h4 class="page-header">Theme Options</h4>
+                                 <p>Porto comes with advanced settings panel that is loaded with options. We have the options organized into logical tabbed sections, and each option has a description of what it will do on the front end. Because of the sizable amount of options Porto provides, we cannot go over them in full detail here in our documentation. We encourage you to please take some time and navigate through each tab to see what we offer. Go to Zodkoo Options on admin sidebar to access the setting options. See below for screenshots and short descriptions of our Theme Options panel.</p>
+                                 <p>1. General Option</p>
+                                 <img src="img/general_option.png">
+                                 <hr>
+                                 <p>2. Header Option</p>
+                                 <img src="img/header_option.png">
+                                 <hr>
+                                 <p>3. Blog Option</p>
+                                 <img src="img/blog_option.png">
+                                 <hr>
+                                 <p>4. 404 Option</p>
+                                 <img src="img/404_option.png">
+                                 <hr>
+                                 <p>5. Typography Option</p>
+                                 <img src="img/typography_option.png">
+                                 <hr>
+                                 <p>6. Footer Option</p>
+                                 <img src="img/footer_option.png">
+                                 <hr>
+                                 <p>7. Options Object</p>
+                                 <img src="img/option_object.png">
+                                 <hr>
+                                 <p>8. Import / Export</p>
+                                 <img src="img/import_export.png">
+                                 <hr>
+                            </div>
+                            <div id="shortcodes" class="com-container">
+                                 <h4 class="page-header">Shortcodes</h4>
+                                 <p>You should enable visual composer editor.</p>
+                                 <p>You should select the element. If you click the following button, will be show the popup.</p>
+                                 <img src="img/shortcodes.png">
+                            </div>
+                               <div id="support" class="com-container">
+                                    <h4 class="page-header">Support</h4>
+                                    <p class="m-t-20">
+                                        Once again thank you for your purchase. I'll be happy to answer the the
+                                        questions you have related to the theme.
+                                        In case if you have any suggestion or feature, request please feel free to
+                                        contact me, I'll try to implement it and will release as part of future updates.
+                                    </p>
+
+                                    <p>
+                                        Stay Awesome!
+                                    </p>
+                                    <p class="text-primary">
+                                        - <strong>Coderthemes</strong>
+                                    </p>
+                                </div>
+
+                                <div id="changelog" class="com-container">
+
+                                    <h4 class="page-header">Changelog</h4>
+
+
+                                    <p style="margin-top: 20px;"><strong
+                                            style="text-decoration: underline; font-weight: 900;">Version
+                                        1.0.0 </strong> &nbsp;&nbsp;&nbsp;
+                                        <small class="text-muted"> 18 Apr 2017</small>
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            Initial released
+                                        </li>
+                                    </ul>
+
+                                </div>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+            <div class="text-center">
+                <p class="copy">Copyright © 2017 Zodkoo.</p>
+            </div>
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/jquery.easing.min.js"></script>
+
+        <script type="text/javascript" src="js/prettify.js"></script>
+
+        <!-- Menu Toggle Script -->
+        <script>
+
+            //jQuery for page scrolling feature - requires jQuery Easing plugin
+            $(function () {
+                $('.sidebar-nav a').bind('click', function (event) {
+                    var $anchor = $(this);
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top - 100
+                    }, 1500, 'easeInOutExpo');
+                    event.preventDefault();
+                });
+            });
+        </script>
+
+</body>
+
+</html>

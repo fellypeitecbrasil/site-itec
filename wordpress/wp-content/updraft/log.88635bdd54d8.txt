@@ -1,0 +1,71 @@
+0000.087 () Opened log file at time: Fri, 03 Nov 2017 18:30:09 +0000 on http://localhost/wordpress
+0000.087 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.8 WP: 4.8.3 PHP: 7.1.7 (apache2handler, Windows NT DESKTOP-2BO9T2D 10.0 build 15063 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.26 (Win32) OpenSSL/1.0.2l PHP/7.1.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.1M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.088 () Free space on disk containing Updraft's temporary directory: 600031.8 MB
+0000.174 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.214 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.428 () Entity: db
+0000.428 () restore_backup(backup_file=backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-db.gz, type=db, info=a:0:{}, last_one=)
+0000.431 () Desempacotando o backup... (backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-db.gz, 0.2 Mb)
+0000.437 () Database successfully unpacked
+0000.440 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.440 () Using direct MySQL access; value of use_mysqli is: 1
+0002.569 () Max packet size: 32 MB
+0002.569 () Entering maintenance mode
+0002.569 () Ativando modo de manutenção&#8230;
+0002.577 () Backup of: http://localhost/wordpress
+0002.581 () Content URL: http://localhost/wordpress/wp-content
+0002.581 () Uploads URL: http://localhost/wordpress/wp-content/uploads
+0002.581 () Old table prefix: wp_
+0002.582 () Site information: multisite=0
+0002.585 () New table prefix: wp_
+0002.900 () Processing table (InnoDB): wp_options
+0003.950 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0004.093 () Processing table (InnoDB): wp_users
+0004.627 () Processing table (InnoDB): wp_usermeta
+0005.087 () Processing table (InnoDB): wp_commentmeta
+0005.633 () Processing table (InnoDB): wp_comments
+0006.276 () Processing table (InnoDB): wp_links
+0006.860 () Processing table (InnoDB): wp_postmeta
+0007.392 () Processing table (InnoDB): wp_posts
+0008.347 () Processing table (InnoDB): wp_term_relationships
+0009.902 () Processing table (InnoDB): wp_term_taxonomy
+0010.538 () Processing table (InnoDB): wp_termmeta
+0011.033 () Processing table (InnoDB): wp_terms
+0011.335 () Unlocking database and leaving maintenance mode
+0011.335 () Desativando modo de manutenção&#8230;
+0011.336 () Finished: lines processed: 43 in 10.77 seconds
+0011.337 () Limpando a sujeira...
+0011.986 () Entity: plugins
+0011.986 () restore_backup(backup_file=backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\wordpress/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0011.987 () Desempacotando o backup... (backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-plugins.zip, 20.6 Mb)
+0028.882 () Moving old data: filesystem method / updraft_dir is potentially possible
+0028.884 () Moving old data: can potentially use wp_filesystem method / -old
+0028.884 () Movendo dados antigos para fora do caminho...
+0029.697 () Top-level entities being moved: add-to-any, akismet, contact-form-7, index.php, js_composer, mailchimp-for-wp, one-click-demo-import, redux-framework, updraftplus, yellow-pencil-visual-theme-customizer, zodkoo-shortcode
+0029.781 () Movendo backup desempacotado para o local...
+0031.823 () Top-level entities being moved: add-to-any, akismet, contact-form-7, index.php, js_composer, mailchimp-for-wp, one-click-demo-import, redux-framework, updraftplus, yellow-pencil-visual-theme-customizer, zodkoo-shortcode
+0032.311 () Limpando a sujeira...
+0032.542 () Entity: themes
+0032.542 () restore_backup(backup_file=backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-themes.zip, type=themes, info=a:2:{s:4:"path";s:43:"C:\xampp\htdocs\wordpress/wp-content/themes";s:11:"description";s:5:"Temas";}, last_one=)
+0032.545 () Desempacotando o backup... (backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-themes.zip, 12.4 Mb)
+0034.608 () Moving old data: filesystem method / updraft_dir is potentially possible
+0034.609 () Moving old data: can potentially use wp_filesystem method / -old
+0034.609 () Movendo dados antigos para fora do caminho...
+0034.670 () Top-level entities being moved: Documentation, index.php, twentyfifteen, twentyseventeen, twentysixteen, zodkoo, zodkoo-child
+0035.242 () Movendo backup desempacotado para o local...
+0035.370 () Top-level entities being moved: Documentation, index.php, twentyfifteen, twentyseventeen, twentysixteen, zodkoo, zodkoo-child
+0035.381 () Limpando a sujeira...
+0036.530 () Entity: uploads
+0036.530 () restore_backup(backup_file=backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\wordpress/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0036.533 () Desempacotando o backup... (backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-uploads.zip, 5.7 Mb)
+0037.735 () Moving old data: filesystem method / updraft_dir is potentially possible
+0037.737 () Moving old data: can potentially use wp_filesystem method / -old
+0037.737 () Movendo dados antigos para fora do caminho...
+0038.324 () Movendo backup desempacotado para o local...
+0038.390 () Limpando a sujeira...
+0039.798 () Entity: others
+0039.798 () restore_backup(backup_file=backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-others.zip, type=others, info=a:2:{s:4:"path";s:36:"C:\xampp\htdocs\wordpress/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0039.800 () Desempacotando o backup... (backup_2017-11-03-1604_Itec_Brazil_072b4dd83825-others.zip, 0.5 Mb)
+0039.950 () Limpando a sujeira...
+0042.262 () Restore successful!
+0042.262 () Restore successful
