@@ -1,0 +1,166 @@
+0000.041 (0) Opened log file at time: Sun, 11 Mar 2018 15:23:26 +0000 on http://localhost/wordpress
+0000.076 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.15 WP: 4.8.5 PHP: 7.2.2 (apache2handler, Windows NT DESKTOP-3TL6GH9 10.0 build 16299 (Windows 10) i586) MySQL: 5.5.5 WPLANG: pt_BR Server: Apache/2.4.29 (Win32) OpenSSL/1.1.0g PHP/7.2.2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31M | 6M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.085 (0) Free space on disk containing Updraft's temporary directory: 645391 MB
+0000.163 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.165 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.298 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1520558741, seconds_ago=223065)
+0000.366 (0) Set semaphore last lock (fd) time to 2018-03-11 15:23:26
+0000.368 (0) Semaphore lock (fd) complete
+0000.373 (0) Backup run: resumption=0, nonce=c798da164048, begun at=1520781806 (0s ago), job type=backup
+0000.377 (0) Scheduling a resumption (1) after 300 seconds (1520782106) in case this run gets aborted
+0000.419 (0) Checking if we have a zip executable available
+0000.423 (0) Creation of backups of directories: beginning
+0000.447 (0) PHP event: code E_WARNING: count(): Parameter must be an array or an object that implements Countable (line 1393, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0000.519 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.046 (0) Total entities for the zip file: 628 directories, 4069 files (0 skipped as non-modified), 56.5 MB
+0005.078 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.213 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 100 files added (on-disk size: 120.4 KB)
+0005.280 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 200 files added (on-disk size: 120.4 KB)
+0005.362 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 300 files added (on-disk size: 120.4 KB)
+0005.412 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 400 files added (on-disk size: 120.4 KB)
+0005.461 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 500 files added (on-disk size: 120.4 KB)
+0005.464 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.5 MB, 4069 files batched, 501 (502) added so far); re-opening (prior size: 120.4 KB)
+0008.573 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 600 files added (on-disk size: 2557.9 KB)
+0008.616 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 700 files added (on-disk size: 2557.9 KB)
+0008.680 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 800 files added (on-disk size: 2557.9 KB)
+0008.722 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 900 files added (on-disk size: 2557.9 KB)
+0008.763 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1000 files added (on-disk size: 2557.9 KB)
+0008.766 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 MB, 4069 files batched, 501 (1003) added so far); re-opening (prior size: 2557.9 KB)
+0011.152 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1100 files added (on-disk size: 4042.7 KB)
+0011.214 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1200 files added (on-disk size: 4042.7 KB)
+0011.261 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1300 files added (on-disk size: 4042.7 KB)
+0011.339 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1400 files added (on-disk size: 4042.7 KB)
+0011.392 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1500 files added (on-disk size: 4042.7 KB)
+0011.396 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.4 MB, 4069 files batched, 501 (1504) added so far); re-opening (prior size: 4042.7 KB)
+0015.193 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1600 files added (on-disk size: 6289.8 KB)
+0015.234 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1700 files added (on-disk size: 6289.8 KB)
+0015.278 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1800 files added (on-disk size: 6289.8 KB)
+0015.348 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 1900 files added (on-disk size: 6289.8 KB)
+0015.391 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2000 files added (on-disk size: 6289.8 KB)
+0015.395 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.9 MB, 4069 files batched, 501 (2005) added so far); re-opening (prior size: 6289.8 KB)
+0019.478 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2100 files added (on-disk size: 7989.7 KB)
+0019.519 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2200 files added (on-disk size: 7989.7 KB)
+0019.579 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2300 files added (on-disk size: 7989.7 KB)
+0019.620 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2400 files added (on-disk size: 7989.7 KB)
+0019.662 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2500 files added (on-disk size: 7989.7 KB)
+0019.684 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.9 MB, 4069 files batched, 501 (2506) added so far); re-opening (prior size: 7989.7 KB)
+0027.635 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2600 files added (on-disk size: 13296.1 KB)
+0027.737 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2700 files added (on-disk size: 13296.1 KB)
+0028.026 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2800 files added (on-disk size: 13296.1 KB)
+0028.072 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 2900 files added (on-disk size: 13296.1 KB)
+0028.125 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3000 files added (on-disk size: 13296.1 KB)
+0028.151 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 4069 files batched, 501 (3007) added so far); re-opening (prior size: 13296.1 KB)
+0030.868 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3100 files added (on-disk size: 14015.6 KB)
+0030.935 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3200 files added (on-disk size: 14015.6 KB)
+0030.989 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3300 files added (on-disk size: 14015.6 KB)
+0031.060 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3400 files added (on-disk size: 14015.6 KB)
+0031.873 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3500 files added (on-disk size: 14015.6 KB)
+0031.880 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 MB, 4069 files batched, 501 (3508) added so far); re-opening (prior size: 14015.6 KB)
+0034.732 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3600 files added (on-disk size: 15810 KB)
+0034.794 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3700 files added (on-disk size: 15810 KB)
+0034.874 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3800 files added (on-disk size: 15810 KB)
+0034.929 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 3900 files added (on-disk size: 15810 KB)
+0034.999 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip.tmp: 4000 files added (on-disk size: 15810 KB)
+0035.008 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.8 MB, 4069 files batched, 501 (4009) added so far); re-opening (prior size: 15810 KB)
+0040.429 (0) Created plugins zip (0) - 21255.3 KB in 39.8 s (534.3 KB/s) (sha1: 6d91d80fa608bd65cd1594ef7de5d6adc0eb6dfb, sha256: 979a15fe32188ff7b56a77483d58b6299e9d3376334adb7b27b03ceedf4f3223)
+0040.454 (0) PHP event: code E_WARNING: count(): Parameter must be an array or an object that implements Countable (line 1393, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0040.464 (0) Beginning creation of dump of themes (split every: 400 MB)
+0040.888 (0) Total entities for the zip file: 46 directories, 292 files (0 skipped as non-modified), 15.6 MB
+0040.968 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0041.008 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0043.894 (0) Created themes zip (0) - 12709.1 KB in 3.4 s (3724.7 KB/s) (sha1: 7c5b30e186cffdf81c9479e343808d0cb15f216d, sha256: f3f2eddf23f8747eb42eb43816f1653af44a54a8559dc3dc5f906172df50589c)
+0043.945 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0043.947 (0) Looking for candidates to back up in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0043.949 (0) finding files: 2017: adding to list (1)
+0043.950 (0) finding files: 2018: adding to list (2)
+0043.952 (0) finding files: elementor: adding to list (3)
+0043.959 (0) finding files: js_composer: adding to list (4)
+0043.961 (0) finding files: mc4wp-debug-log.php: adding to list (5)
+0043.963 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0044.121 (0) Total entities for the zip file: 12 directories, 109 files (0 skipped as non-modified), 6.5 MB
+0044.155 (0) Zip: backup_2018-03-11-1223_Itec_Brazil_c798da164048-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0046.511 (0) Created uploads zip (0) - 6674.6 KB in 2.5 s (2637.5 KB/s) (sha1: c3a52ba0f7cbee3a5a1ed37064d12a0e05a0f503, sha256: 35a44bdffd18904ea74b97d056ac595247c2bc3f5ab9b487976ce9c75f2d257a)
+0046.522 (0) Beginning backup of other directories found in the content directory (index: 0)
+0046.524 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0046.526 (0) Looking for candidates to back up in: C:\xampp\htdocs\wordpress/wp-content
+0046.535 (0) finding files: index.php: adding to list (1)
+0046.538 (0) finding files: index.php-old: adding to list (2)
+0046.543 (0) finding files: languages: adding to list (3)
+0046.553 (0) finding files: languages-old: adding to list (4)
+0046.562 (0) finding files: plugins: skipping: this is the plugins directory
+0046.564 (0) finding files: themes: skipping: this is the themes directory
+0046.566 (0) finding files: updraft: skipping: this is the updraft directory
+0046.568 (0) finding files: uploads: skipping: this is the uploads directory
+0046.682 (0) Total entities for the zip file: 6 directories, 38 files (0 skipped as non-modified), 3.5 MB
+0048.329 (0) Created others zip (0) - 1005.3 KB in 1.7 s (582.3 KB/s) (sha1: 862d8ac04d1b5f1095ffd12103efb0af7b5ab711, sha256: 668cf6ea2d793aeb979d35fcaa806bb620261d8ec5c79581fd776b5296b61a58)
+0048.373 (0) Saving backup status to database (elements: 8)
+0048.561 (0) Beginning creation of database dump (WordPress DB)
+0048.906 (0) Table wp_options: Total expected rows (approximate): 253
+0049.427 (0) Table wp_options: Total rows added: 254 in 0.46 seconds
+0049.430 (0) Table wp_options: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_options.table.gz - 133.9 KB)
+0049.458 (0) Table wp_users: Total expected rows (approximate): 0
+0049.532 (0) Table wp_users: Total rows added: 1 in 0.05 seconds
+0049.534 (0) Table wp_users: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_users.table.gz - 0.6 KB)
+0049.556 (0) Table wp_usermeta: Total expected rows (approximate): 24
+0049.574 (0) Table wp_usermeta: Total rows added: 24 in 0.02 seconds
+0049.576 (0) Table wp_usermeta: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_usermeta.table.gz - 1.2 KB)
+0049.606 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0049.612 (0) Table wp_commentmeta: Total rows added: 1 in 0.00 seconds
+0049.623 (0) Table wp_commentmeta: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0049.638 (0) Table wp_comments: Total expected rows (approximate): 2
+0049.644 (0) Table wp_comments: Total rows added: 2 in 0.01 seconds
+0049.646 (0) Table wp_comments: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_comments.table.gz - 0.9 KB)
+0049.660 (0) Table wp_links: Total expected rows (approximate): 0
+0049.666 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0049.668 (0) Table wp_links: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_links.table.gz - 0.4 KB)
+0049.687 (0) Table wp_postmeta: Total expected rows (approximate): 496
+0049.771 (0) Table wp_postmeta: Total rows added: 496 in 0.08 seconds
+0049.850 (0) Table wp_postmeta: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_postmeta.table.gz - 8.6 KB)
+0049.893 (0) Table wp_posts: Total expected rows (approximate): 99
+0049.928 (0) Table wp_posts: Total rows added: 99 in 0.03 seconds
+0049.931 (0) Table wp_posts: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_posts.table.gz - 17.3 KB)
+0049.963 (0) Table wp_term_relationships: Total expected rows (approximate): 61
+0049.969 (0) Table wp_term_relationships: Total rows added: 61 in 0.00 seconds
+0049.971 (0) Table wp_term_relationships: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0050.008 (0) Table wp_term_taxonomy: Total expected rows (approximate): 31
+0050.065 (0) Table wp_term_taxonomy: Total rows added: 31 in 0.02 seconds
+0050.084 (0) Table wp_term_taxonomy: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0050.114 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0050.119 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0050.121 (0) Table wp_termmeta: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_termmeta.table.gz - 0.4 KB)
+0050.167 (0) Table wp_terms: Total expected rows (approximate): 31
+0050.172 (0) Table wp_terms: Total rows added: 31 in 0.00 seconds
+0050.174 (0) Table wp_terms: finishing file (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_terms.table.gz - 0.8 KB)
+0050.192 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_options.table.gz (1/12): adding to final database dump
+0050.247 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_users.table.gz (2/12): adding to final database dump
+0050.274 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0050.276 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0050.304 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0050.307 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_links.table.gz (6/12): adding to final database dump
+0050.308 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0050.313 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0050.322 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0050.324 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0050.326 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0050.328 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0050.330 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db.gz: finished writing out complete database file (152 KB)
+0050.342 (0) Total database tables backed up: 12 (backup_2018-03-11-1223_Itec_Brazil_c798da164048-db.gz, size: 166785, sha256)
+0050.358 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0050.360 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0050.362 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.364 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-others.zip: others: This file has not yet been successfully uploaded: will queue
+0050.366 (0) backup_2018-03-11-1223_Itec_Brazil_c798da164048-db.gz: db: This file has not yet been successfully uploaded: will queue
+0050.367 (0) Saving backup history. Total backup size: 40.8 MB
+0050.399 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0050.416 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0050.418 (0) PHP event: code E_NOTICE: Undefined index: instance_settings (line 428, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0050.419 (0) PHP event: code E_WARNING: Invalid argument supplied for foreach() (line 428, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0050.421 (0) Resume backup (c798da164048, 0): finish run
+0050.461 (0) Decremented the semaphore (fd) by 1
+0050.476 (0) Semaphore (fd) unlocked
+0050.490 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0050.531 (0) The backup apparently succeeded and is now complete
+0050.533 (0) Fetching RSS news feed
+0051.605 (0) Fetched RSS news feed; result is a: SimplePie
+0051.650 (0) Sending email ('Arquivos e banco de dados (Backup Completo (Full))') report (attachments: 0, size: 0 KB) to: backu...
+0052.904 (0) O backup aparentemente foi bem sucedido e está completo agora.
